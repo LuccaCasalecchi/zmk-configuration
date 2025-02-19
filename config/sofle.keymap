@@ -63,10 +63,10 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp ESCAPE  &kp F1          &kp F2        &kp F3     &kp F4  &kp F5                    &kp F6                &kp F7                 &kp F8  &kp F9  &kp F10   &kp F11
-&kp GRAVE   &none           &kp UP_ARROW  &none      &none   &none                     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none   &none   &none     &kp F12
-&trans      &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &none   &none                     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none   &none   &none     &kp PIPE
-&trans      &kp EQUAL       &kp MINUS     &kp PLUS   &none   &none   &trans    &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &none   &none   &kp BSLH  &trans
+&kp ESCAPE  &kp F1          &kp F2        &kp F3     &kp F4  &kp F5                    &kp F6                &kp F7                 &kp F8  &kp F9     &kp F10   &kp F11
+&kp GRAVE   &none           &kp UP_ARROW  &none      &none   &none                     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none   &kp UNDER  &none     &kp F12
+&trans      &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &none   &none                     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none   &none      &none     &kp PIPE
+&trans      &kp EQUAL       &kp MINUS     &kp PLUS   &none   &none   &trans    &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &none   &none      &kp BSLH  &trans
                             &trans        &trans     &trans  &trans  &trans    &trans  &mo 1                 &trans                 &trans  &trans
             >;
 
